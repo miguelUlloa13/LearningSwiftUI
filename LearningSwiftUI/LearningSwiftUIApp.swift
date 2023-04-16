@@ -7,11 +7,14 @@
 
 import SwiftUI
 
+// Primera clase que se ejecuta al iniciar la app
+
 @main
 struct LearningSwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            // ContentView()   // la vista principal
+            MainView()
         }
     }
 }
