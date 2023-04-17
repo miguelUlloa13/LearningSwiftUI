@@ -85,7 +85,7 @@ struct ContentView_Previews: PreviewProvider {
 
 // Live permite interactuar de forma real con la vista, por ejemplo: hacer click en botones
 
-// Si se presiona click y command sobre una vista se puede acceder a una acciones rapidas
+// Si se presiona command y se presiona sobre una vista se puede acceder a una acciones rapidas
 
 // VStack sirve para colocar views de forma vertical
 // Se puede modificar las propiedades del VStack, aliment y spacing
