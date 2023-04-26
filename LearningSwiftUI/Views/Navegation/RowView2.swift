@@ -34,6 +34,6 @@ struct RowView2: View {
 struct RowView2_Previews: PreviewProvider {
     static var previews: some View {
         RowView2(programmer: Programmer(id: 1, name: "Miguel Ulloa", language: "Swift and Phyton", avatar: Image(systemName: "person.fill"), favourite: true))
-            .previewLayout(.fixed(width: 400, height: 60))
+                .previewLayout(.fixed(width: 400, height: 60))
     }
 }
